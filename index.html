@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/sobre.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/interview.css" />
+    <link rel="stylesheet" href="./css/posts.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/saude.css" />
+    <link rel="stylesheet" href="./css/pessoa.css" />
+    <link rel="stylesheet" href="./css/curiosidades.css" />
+
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="/img/B.png">
+
+    <title>Burnout</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <div id="navigation">
+          <h1>Burnout</h1>
+          <nav>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#racas">Relatos</a>
+            <a href="index.html#curiosidades">Curiosidades</a>
+            <a href="index.html#posts">Posts</a>
+            <a href="index.html#saude">Saúde</a>
+            <a href="index.html#autores">Autores</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="banner">
+        <div id="banner-infos">
+          <h3>
+            🤔 Conheça mais sobre esse mal que vem afetando silenciosamente cada vez mais pessoas.
+          </h3>
+          <a href="#sobre">Saiba mais</a>
+        </div>
+      </section>
+
+      <!-- sobre -->
+      <section id="sobre" class="secao">
+        <h2>Sobre</h2>
+        <section class="sobre">
+          <div class="texto">
+            <p>
+              <b>O que é a síndrome de Burnout?</b> <br>
+              A síndrome de burnout é um distúrbio psíquico causado pela exaustão extrema, sempre relacionada ao trabalho de um indivíduo. Essa condição também é chamada de “síndrome do esgotamento profissional” e afeta quase todas as facetas da vida de um indivíduo.
+              Ela é o resultado direto do acúmulo excessivo de estresse, de tensão emocional e de trabalho e é bastante comum em profissionais que trabalham sob pressão constante, como médicos, publicitários e professores.
+              Toda essa pressão, ansiedade e nervosismo resultam em uma depressão profunda, que precisa de acompanhamento médico constante.
+              A tendência é que a síndrome de burnout se torne cada vez mais comum, sendo que seu diagnóstico é realizado por meio de uma consulta médica com um psicólogo ou um psiquiatra.
+              Quais os sintomas da síndrome de burnout?
+              Os sintomas da síndrome de burnout podem ser físicos ou psicológicos, sendo que a pessoa pode apresentar:
+              – Cansaço mental e físico excessivos; <br>
+              – Insônia; <br>
+              – Dificuldade de concentração; <br>
+              – Perda de apetite; <br>
+              – Irritabilidade e agressividade; <br>
+              – Lapsos de memória; <br>
+              – Baixa autoestima; <br>
+              – Desânimo e apatia; <br>
+              – Dores de cabeça e no corpo; <br>
+              – Negatividade constante; <br>
+              – Sentimentos de derrota, de fracasso e de insegurança; <br>
+              – Isolamento social; <br>
+              – Pressão alta; <br> 
+              – Tristeza excessiva. <br>
+              Como é o tratamento da síndrome de burnout?
+              O tratamento da síndrome de burnout pode ser feito por meio de medicamentos para tratar de seus sintomas.
+              No geral, o burnout requer que o indivíduo faça terapia e acompanhamentos com um médico de forma constante.
+            </p>
+          </div>
+          <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/em1H0chNXP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <img src="./img/dog.png" alt="" />
+        </section>
+      </section>
+
+      <!-- entrevistas realizadas -->
+      <section id="interview" class="secao">
+        <h2>Entrevistas</h2>
+        <section class="interview-grid" id="interview-slide">
+          <section class="interview-card">
+            <div class="img-wrapper">
+              <img src="./img/gestorTI.jpeg" alt="" />
+            </div>
+            <div class="informations">
+              <h3><button type="button" onclick="hideText('Yussef')" id="hideText">Yussef</button></h3>
+              <p class="block-with-text">
+                <div id="Yussef" style="display:none">
+                  <ul>
+                    <strong><li>Pode se apresentar por favor?</li></strong>
+                    <i> Yussef Garcia, 16 anos de experiência como Gestor de tecnologia da informação (Elaborando o planejamento estratégico de TI; planejando e administrando os processos de TI. Assegurando que a TI apoie os processos de negócio; gerenciando a equipe de TI; priorizando e dando suporte aos projetos de TI, Definindo a governança de TI; Garantindo a continuidade dos serviços de TI; monitorando e apresentando os indicadores de TI; Garantindo a segurança da informação; solicitando e distribuindo os recursos de TI.); Sólido conhecimento na área de tecnologia da informação com experiência de mercado de 18 anos, profissional generalista.</i>
+                    <strong><li>Na área de T.I, já atuou no mercado de trabalho? Se sim, quanto tempo?</li></strong>
+                    <i>Sim, 18 anos.</i>
+                    <strong><li>Aonde atua hoje? Por quanto tempo?</li></strong>
+                    <i>CAPITAL CONSIG BANK, 5 meses.</i>
+                    <strong><li>Ja estava ciente da existência da sindrome de Bournout?</li></strong>
+                    <i>Não não estava conheci no período da pandemia, através de reportagens.</i>
+                    <strong><li>Como ficou sabendo que possuia a doença e como eram os sintomas?</li></strong>
+                    <i>Por dicas de colegas e fui investigar e pesquisar, os sintomas eram os seguintes:</i>
+                    <ol>
+                      <li>Hiperprodutividade. No início, há uma alta taxa de produtividade. Você aumenta significativamente sua performance. “É comum observarmos que passamos a trabalhar muito mais horas do que o estabelecido. Com isso, perde-se em convívio social e em autocuidado.”
+                      </li>
+                      <li>Agressividade. Nesta fase, é comum perceber que ficamos irritadiços – que nos tornemos aquelas pessoas 'pavio curto', que reagem exageradamente às situações. Insônia e disfunções alimentares geralmente são observadas.</li>
+                      <li>Exaustão. Você não é mais capaz de realizar suas tarefas cotidianas, dentro e fora do trabalho. Falta de concentração e de memória são frequentes. O sentimento de culpa é grande, pois não há mais energia para fazer tarefas que estava acostumado. O medo de perder o emprego e do julgamento dos colegas também.</li>
+                    </ol>
+                    <strong><li>Por quais motivos você acha que ela se manifestou?</li></strong>
+                    <i>Por conta da Pandemia, houve um aumento de necessidade relacionado a tecnologias, e como docente na época a carga horária aumentou com aumento de lives, video aulas, produção de material EAD, somado com o outro trabalho em um banco o numero de operações bancarias através de APPS, tendo com que os bancos tivessem a maior necessidade que suas aplicações estivessem sempre no ar já que houve um aumento de clientes, banco de dados, transações aumento de tentativas de fraudes ou invasões.</i>
+                    <strong><li>Como sua sindrome afetava ou afeta o seu dia-a-dia?</li></strong>
+                    <i>Principalmente no sono, insonia constante, durmo apens de 2 a 3 horas por dia, alimentação desregrada e sem um padrão de horário. Mal humor.</i>
+                    <strong><li>Conhece algum colega que possui ou possuiu a sindrome?</li></strong>
+                    <i>Vários amigos na área de T.i com a mesma.</i>
+                    <strong><li>Como foi seu processo de recuperação?</li></strong>
+                    <i>No meu caso eu mesmo busquei esta desintoxicação, mas creio que muitos pessoas procuram ajuda com especialistas, leia se psicologos, analistas, psicanalistas.</i>
+                    <strong><li>A partir de sua experiência pessoal, o que indicaria para evitar que a Sindrome de Bournot se manifeste em outras pessoas?</li></strong>
+                    <i>Apoio em Deus primeiramente, família, aproveite, curta cada momento com eles, por último não se cobre tanto.</i>
+                  </ul>
+                </div>
+              </p>
+            </div>
+          </section>
+
+          <section class="interview-card">
+            <div class="img-wrapper">
+              <img src="./img/dev-front.jpg" alt="" />
+            </div>
+            <div class="informations">
+              <h3><button type="button" onclick="hideText('Renan')" id="hideText">Renan</button></h3>
+              <p>
+                  <div id="Renan" style="display:none">
+                  <ul>
+                    <strong><li>Pode se apresentar por favor?</li></strong>
+                    <i>Renan Oliveira. Tenho 28 anos e sou carioca.</i>
+                    <strong><li>Na área de T.I, já atuou no mercado de trabalho? Se sim, quanto tempo?</li></strong>
+                    <i>Trabalho com desenvolvimento desde 2015, há 7 anos.</i>
+                    <strong><li>Aonde atua hoje? Por quanto tempo?</li></strong>
+                    <i>Hoje tabalho na DigitalHouse, completou 1 ano no dia 2 de Maio.</i>
+                    <strong><li>Ja estava ciente da existência da sindrome de Bournout?</li></strong>
+                    <i>Não conhecia.</i>
+                    <strong><li>Como ficou sabendo que possuia a doença e como eram os sintomas?</li></strong>
+                    <i>Estava me sentindo daquele jeito há um tempo, uns 3 meses antes de perceber. Deixei de sentir prazer em tudo, foi um momento em que a vida ficou bastante cinza, sem ânimo para nada nem mesmo sair. Inicialmente parece cansaço, mas que não pára. Você pode dormir 12h que vai parecer um cochilo de 5 minutos, você fica extremamente irritado com tudo ao seu redor.</i>
+                    <strong><li>Por quais motivos você acha que ela se manifestou?</li></strong>
+                    <i>Na primeira vez eu fazia faculdade e era desenvolvedor front-end e tinha prazos irreais dos projetos, surreais de apertados e pressão psicologica da chefia que precisava dos sites o mais rápido possível. Na segunda foi o mesmo com adicional da falta de descanço, uma carga excessiva de trabalho, eu saía de casa as 5 da manhã e tinha vezees que saía do trabalho meia-noite.</i>
+                    <strong><li>Como sua sindrome afetava ou afeta o seu dia-a-dia?</li></strong>
+                    <i>No trabalho só tentava ignorar e continuar trabalhando e isso acabava "vazando" para minha vida pessoal, afetando até meu relacionamento. Tinha pensamentos negativos quanto ao trabalho, parei de jogar videogame, virei uma "pessoa cinza" perdi o brilho e o tesão de viver.
+                    No segundo emprego me afetou que num momento que eu não tinha ânimo de visitar minha família pois morava em outra cidade. Botava na minha cabeça que tinha que ralar agora para ficar mais tranquilo. Até pra estudar perdi a vontade, você sabe que precisa melhorar mas não consegue por ter um cansaço maior que você, o estresse e a pressão constante desanimam a gente.</i>
+                    <strong><li>Conhece algum colega que possui ou possuiu a sindrome?</li></strong>
+                    <i>Conheço, na primeira empresa um colega entrou em burnout logo depois de mim. Desenvolvedor também que tinha um cansaço físico sinistro além do desânimo e ainda tinha um déficit de atenção muito grande, não só no código mas ao seu redor também.</i>
+                    <strong><li>Como foi seu processo de recuperação?</li></strong>
+                    <i>Foi quando me desliguei dessa empresas, no início ainda estava naquele ritmo. Até hoje sou bem acelerado mas já diminui bastante. Pouco a pouco fui perdendo o hábito que havia adquirrido naquelas empresas, voltei a programar por querer, via mais minha namorada, minha família e amigos. <br> 
+                    O estresse é preocupante quando vira rotina.</i>
+                    <strong><li>A partir de sua experiência pessoal, o que indicaria para evitar que a Sindrome de Bournot se manifeste em outras pessoas?</li></strong>
+                    <i>São alguns pontos para fazer e pensar:
+                      <ol>
+                        <li>Essa é a única empresa que pode me dar o que eu quero?</li>
+                        <li>Enquanto estou nela posso fazer um processo em outras?</li>
+                        <li>Procurar a empresa no Glass-door, um site feito por comunidade de pessoas que falam anonimamente sobre empresas que já trabalharam.</li>
+                        <li>Terapia!</li>
+                        <li>Exercícios físicos, não apenas uma atividade física. Academia, yoga, cross-fit etc.</li>
+                        <li>Quando participar de entrevistas perguntar o tamanho da equipe e há quanto tempo estão lá, pois equipes menores tem essa tendência a ter uma maior carga de trabalho.</li>
+                        <li>Para superar, eu pessoalmente, só consegui quando saí das empresas que me deixaram assim.</li>
+                      </ol>
+                    </i>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="interview-card">
+            <div class="img-wrapper">
+              <img src="./img/alice.jfif" alt="" />
+            </div>
+            <div class="informations">
+              <h3><button type="button" onclick="hideText('Alice')" id="hideText">Alice</button></h3>
+              <p>
+                  <div id="Alice" style="display:none">
+                  <ul>
+                    <strong><li>Pode se apresentar por favor?</li></strong>
+                    <i>Me chamo Alice, me formei em psicologia em 2017, pelas Faculdades Integradas de Ciências Humanas, Saúde e Educação de Guarulhos, me formei com ênfase em psicologia analítica e atualmente trabalho na área de Recursos Humanos, em uma indústria em Guarulhos.</i>
+                    <strong><li>Como funciona essa síndrome?</li></strong>
+                    <i>Síndrome de Burnout ou Síndrome do Esgotamento Profissional é um distúrbio emocional com sintomas de exaustão extrema, estresse e esgotamento físico resultante de situações de trabalho desgastante, que demandam muita competitividade ou responsabilidade. A principal causa dessa doença é justamente o excesso de trabalho. A Síndrome de Burnout envolve nervosismo, sofrimentos psicológicos e problemas físicos, como dor de barriga, cansaç excessivo e tonturas. O estresse e a falta de vontade de sair da cama ou de casa, quando constantes, podem indicar o início da doença.</i>
+                    <strong><li>Quais partes de sua rotina eles tinham em comum? Se algo se assemelha entre.</li></strong>
+                    <i>Tem em comum uma rotina de trabalho estressante e/ou más condições de trabalho, comando-se pressão psicológica, cobranças, rotina muito agitada e pouco retorno.</i>
+                    <strong><li>Notou algo sobre essa síndrome em mulheres?Se sim, tem diferença de sintomas ou manias.</li></strong>
+                    <i>Uma vez que a Síndrome de Burnout está relacionada ao esgotamento físico e estresse, é muito comum que se apresente mais em mulheres devido a características comuns em nossa cultura onde a mulher é responsável por múltiplas tarefas, sendo exigido que dê conta da casa, dos filhos, companheiro, além do emprego, caso trabalhe fora.</i>
+                    <strong><li>Há alguma área específica mais afetada do que outras?</li></strong>
+                    <i>Burnout pode se manifestar em pessoas de todas as áreas. Claro que a relação entre o que o trabalhador deve investir tempo e atenção em seu trabalho X e o que recebe em salário, benefícios e retorno positivo de seus superiores influenciam também, mas no geral ela afeta trabalhadores de todos os níveis e categorias.</i>
+                    <strong><li>Quais os melhores métodos de prevenção?</li></strong>
+                    <i>Uma vez que a síndrome se dá especialmente no ambiente de trabalho, é importante que o empregador proporcione um local de trabalho que seja saudável para e favorável a saúde mental de seus funcionários. <br>
+                    A melhor forma de prevenir a Síndrome de Burnout são estratégias que diminuam o estresse e a pressão no trabalho. <br>
+                    Condutas saudáveis evitam o desenvolvimento da doença, assim como ajudam a tratar sinais logo no início.</i>
+                    <strong><li>Existe algum tratamento para os pacientes? Se sim, qual? </li></strong>
+                    <i>O tratamento da Síndrome de Burnout é feito basicamente com psicoterapia, mas também pode envolver medicamentos (antidepressivos e/ou ansiolíticos). <br>
+                    O tratamento normalmente surte efeito entre um e três meses, mas pode perdurar por mais tempo, conforme cada caso. <br>
+                    Mudanças nas condições de trabalho e, principalmente, mudanças nos hábitos e estilos de vida. <br>
+                    A atividade regular e os exercícios de relaxamento  devem ser rotineiros, para aliviar o estresse e controlar os sintomas da doença. <br>
+                    Após diagnóstico médico, é fortemente recomendado que a pessoa tire férias e desenvolva atividades de lazer com pessoas próximas - amigos, familiares, cônjugues etc.</i>
+                </p>
+              </div>              
+            </div>
+          </section>
+
+          <section class="interview-card">
+            <div class="img-wrapper">
+              <img src="./img/daiane.jfif" alt="" />
+            </div>
+            <div class="informations">
+              <h3><button type="button" onclick="hideText('Daiane')" id="hideText">Daiane</button></h3>
+              <p>
+                  <div id="Daiane" style="display:none">
+                  <ul>
+                    <strong><li>Pode se apresentar por favor?</li></strong>
+                    <i>Me chamo Daiane, sou psicóloga há dois anos, especialista em terapia cognitivo-comportamental pela PUC.</i>
+                    <strong><li>Como funciona essa síndrome?</li></strong>
+                    <i>O Burnout é uma síndrome caracterizada pela exaustão emocional, desencadeado por um processo prolongado de níveis de estresse no trabalho que ocorre quando os métodos de seu enfrentamento falharam ou foram insuficientes. A CID-11 (Classificação Internacional de Doenças) descreve o Burnout como uma síndrome de estresse crônico relacionado ao trabalho. O principal sintoma é o esgotamento emocional, onde a pessoa a apresenta sentimentos de desesperança, tristeza, irritabilidade, baixa imunidade (que pode favorecer o surgimento de doenças), dores musculares.</i>
+                    <strong><li>Quais partes de sua rotina eles tinham em comum? Se algo se assemelha entre.</li></strong>
+                    <i>O indivíduo em quadro de burnout também pode apresentar um distanciamento afetivo, tendo a sensação de que está alienados das pessoas que gosta, percebe a presença das pessoas como algo aversivo, e pode apresentar baixa empatia, a crítica exagerada em relação a tudo (pessoas e ambiente), agir com indiferença ao sofrimento do outro. E há ainda a baixa satisfação com seu trabalho, quando a pessoa entende que seu esforço e dedicação é pouco ou nunca será o suficiente, ou que as coisas que realizou não são importantes.
+                    </i>
+                    <strong><li>Notou algo sobre essa síndrome em mulheres?Se sim, tem diferença de sintomas ou manias.</li></strong>
+                    <i>Em geral, mulheres apresentam maior exaustão emocional e os homens maior despersonalização. E também pessoas com níveis educacionais mais elevados.</i>
+                    <strong><li>Há alguma área específica mais afetada do que outras?</li></strong>
+                    <i>Várias áreas da vida do sujeito podem ser afetadas: saúde mental (ansiedade, depressão, estresse); saúde física, pois o estresse faz com que o organismo libere hormônios como o cortisol e a noradrenalina, que podem a longo prazo impactar negativamente no sistema imunológico, fazendo com que a pessoa se torne mais suscetível a desenvolver outras doenças (perturbação do sono, queda de cabelo, alterações menstruais, perturbação gastrointestinal, imunodeficiências com resfriados e gripes constantes e afecções na pele; queda de cabelo, distúrbios no sistema respiratório (suspiros profundos, bronquite, asma), disfunções sexuais (diminuição desejo sexual, dispareunia, ejaculação precoce). Os relacionamentos familiares e sociais também podem ser prejudicados, pois pode provocar distanciamento dos filhos, familiares e amigos.</i>
+                    <strong><li>Quais os melhores métodos de prevenção?</li></strong>
+                    <i>Entender essa síndrome, reconhecer que ela pode estar presente em sua vida e procurar ajuda profissional para lhe auxiliar no manejo do estresse e a desenvolver habilidades sociais e assertividade para resolução de problemas em seu dia a dia.</i>
+                    <strong><li>Existe algum tratamento para os pacientes? Se sim, qual? </li></strong>
+                    <i>Terapia, onde o psicólogo irá trabalhar técnicas especificas para ajudar o paciente e dependendo do grau da patologia, talvez seja necessário também a medicação psiquiátrica.</i>
+                  </ul>
+                </p>
+              </div>              
+            </div>
+          </section>
+        </section>
+
+      <!-- curiosidades -->
+      <section id="curiosidades" class="secao">
+        <h2>Curiosidades</h2>
+        <section class="curiosidades-titulo">
+          <h3>Veja 7 sintomas da síndrome</h3>
+
+          <cite>
+            Sintomas mais comuns que todos deveriam saber sobre a Síndrome de Burnout
+          </cite>
+
+          <div class="divisao"></div>
+          <!-- linha acima da imagem -->
+
+          <img src="./img/surto-burnout.jpg" alt="Garota apresentando sinais de estresse e/ou cansaço" />
+
+          <div class="divisao"></div>
+          <!-- linha abaixo da imagem -->
+        </section>
+
+        <section class="gridcuriosidade">
+          <ol>
+            <li>Exaustão</li>
+
+            <li>
+              Falta de entusiasmo no trabalho
+            </li>
+
+            <li>
+              Desempenho reduzido no trabalho
+            </li>
+
+            <li>
+              Preocupação e ansiedade
+            </li>
+
+            <li>
+              Distúrbios do sono
+            </li>
+
+            <li>
+              Sintomas físicos
+            </li>
+
+            <li>
+              Irritabilidade e transtornos de humor
+            </li>
+          </ol>
+        </section>
+      </section>
+
+      <!-- posts -->
+      <section id="posts" class="secao">
+        <h2>Notícias</h2>
+      </section>
+      <section>
+        <section class="posts-grid">
+          <section class="post-card">
+            <a
+              target="_blank"
+              href="https://itforum.com.br/noticias/como-profissionais-de-ti-podem-lidar-com-o-burnout-acelerado-na-pandemia/"
+            >
+              <div class="img-wrapper">
+                <img src="./img/Grafico_Burnout_Interna_ITF.jpg" />
+              </div>
+              <div class="informations">
+                <h3>Como profissionais de TI podem lidar com o Burnout acelerado na pandemia?</h3>
+                <p>
+                  Os profissionais de Tecnologia da Informação se viram mais estressados durante a pandemia, segundo uma pesquisa conduzida pela plataforma Blind. 
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="post-card">
+            <a
+              target="_blank"
+              href="https://blog.lg.com.br/dicas-evitar-burnout-da-ti-pandemia/"
+            >
+              <div class="img-wrapper">
+                <img src="./img/burnout-ti-1.jpg"/>
+              </div>
+              <div class="informations">
+                <h3>4 dicas para evitar o burnout da TI</h3>
+                <p>
+                  Em 2020, mais de 20 milhões de pessoas sofrem com síndrome de burnout no país, de acordo com pesquisa da revista Época, realizada pela Faculdade de Medicina da Universidade de São Paulo (USP). Essa realidade não é diferente para as equipes de tecnologia.
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="post-card">
+            <a
+              target="_blank"
+              href="https://olhardigital.com.br/2021/02/24/pro/profissionais-de-ti-relatam-maior-pressao-no-trabalho/"
+            >
+              <div class="img-wrapper">
+                <img src="./img/i302712.jpeg"/>
+              </div>
+              <div class="informations">
+                <h3>
+                  89% dos profissionais de TI relatam maior pressão no trabalho
+                </h3>
+                <p>
+                  A pandemia do coronavírus levou as empresas a necessidade de repensar suas estratégias digitais, colocando os profissionais de TI (tecnologia da informação) a buscarem alternativas que sanassem os problemas
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="post-card">
+            <a
+              target="_blank"
+              href="https://webglobal.com.br/blog/a-sindrome-de-burnout-e-o-esgotamento-profissional-na-area-de-tecnologia/"
+            >
+              <div class="img-wrapper">
+                <img src="./img/7dcd2c79-ransomware.jpg.jfif"/>
+              </div>
+              <div class="informations">
+                <h3>A Síndrome de Burnout e o esgotamento profissional na área de tecnologia</h3>
+                <p>
+                  Incluída na lista de doenças da Organização Mundial da Saúde (OMS) recentemente, a Síndrome de Burnout ou Esgotamento Profissional tem afetado uma parcela acima de 30% dos mais de 100 milhões de trabalhadores brasileiros. 
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="post-card">
+            <a
+              target="_blank"
+              href="https://canaltech.com.br/saude/sindrome-de-burnout-a-doenca-que-desperta-o-lado-obscuro-da-tecnologia-153879/"
+            >
+              <div class="img-wrapper">
+                <img src="./img/dev-front.jpg"/>
+              </div>
+              <div class="informations">
+                <h3>Síndrome de Burnout: a doença que desperta o lado obscuro da tecnologia</h3>
+                <p>
+                  Você já ouviu falar da Síndrome de Burnout? Basicamente, trata-se de um distúrbio psíquico caracterizado pelo estado de tensão emocional e estresse provocados por condições de trabalho desgastantes.
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="post-card">
+            <a
+              target="_blank"
+              href="https://inforchannel.com.br/2022/01/17/sonda-cria-solucao-para-reduzir-casos-de-sindrome-de-burnout-nas-empresas/"
+            >
+              <div class="img-wrapper">
+                <img src="./img/pexels-ketut-subiyanto-4560092-1024x683.jpg"/>
+              </div>
+              <div class="informations">
+                <h3>Sonda cria solução para reduzir casos de síndrome de burnout nas empresas</h3>
+                <p>
+                  Com o uso de Inteligência Artificial, a plataforma Corporate Wellness cria uma interação com os colaboradores das organizações, identificando hábitos, rotinas e pontos de melhoria.
+                </p>
+              </div>
+            </a>
+          </section>
+        </section>
+      </section>
+
+      <!-- saúde -->
+      <section id="saude" class="secao">
+        <h2>Saúde</h2>
+      </section>
+
+      <div class="containersaude">
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            <p class="font-weight-bold text-justify">
+              Especialistas do HSM orientam sobre prevenção e tratamento da síndrome de burnout
+            </p>
+            <p class="text-justify">
+              A síndrome de burnout é um distúrbio psíquico caracterizado pelo estado de tensão emocional e estresse provocado por condições de trabalho desgastantes. Especialistas do Hospital de Saúde Mental Professor Frota Pinto (HSM), unidade da Secretaria da Saúde do Ceará (Sesa), do Governo do Estado, orientam sobre como prevenir e tratar o distúrbio. O problema se manifesta quando a relação com a atividade profissional gera desgaste, ansiedade e nervosismo intensos.
+            </p>
+
+            <a href="https://www.saude.ce.gov.br/2020/11/18/especialistas-do-hsm-orientam-sobre-prevencao-e-tratamento-da-sindrome-de-burnout/">https://www.saude.ce.gov.br</a>
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <iframe width="550" height="315" src="https://www.youtube.com/embed/Eqjqwrm1mfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- autores -->
+      <section id="autores" class="secao">
+        <h2>Autores</h2>
+        <!-- estilização pessoas -->
+        <link href="../css/pessoa-funcao.css" rel="stylesheet" />
+        <link href="../css/pessoa-imagem.css" rel="stylesheet" />
+        <link href="../css/pessoa-nome.css" rel="stylesheet" />
+        <link href="../css/pessoas.css" rel="stylesheet" />
+        <link href="../css/pessoa.css" rel="stylesheet" />
+
+        <!-- estilização rodape -->
+        <link href="../css/rodape.css" rel="stylesheet" />
+
+        <!-- quem somos -->
+        <section class="quem-somos">
+          <h3 class="quem-somos__titulo"></h3>
+  
+          <p class="quem-somos__descricao">
+            Conheça os responsáveis por este projeto.
+          </p>
+  
+          <div class="pessoas">
+
+  
+            <div class="pessoa">
+              <a href="https://www.linkedin.com/in/isaque-santos-fagundes-207249238/" target="_blank">
+                <div class="pessoa_img_conteiner">
+                  <img src="img/isaque.jfif" class="pessoa_imagem" />
+                </div>
+              </a>
+              <span class="pessoa__nome">Isaque Fagundes</span>
+              <span class="pessoa__funcao">Ciência da Computação</span>
+            </div>
+  
+  
+            <div class="pessoa">
+              <a href="https://github.com/DayanaMiranda"target="_blank">
+              <div class="pessoa_img_conteiner">
+                <img src="img/ayme.jfif" class="pessoa_imagem" />
+              </div>
+            </a>
+  
+              <span class="pessoa__nome">Aymê<br> Lozano</span>
+              <span class="pessoa__funcao">Ciência da Computação</span>            
+            </div>
+          
+  
+  
+            <div class="pessoa">
+              <a href="https://www.linkedin.com/in/alexandre-sb/"target="_blank">
+              <div class="pessoa_img_conteiner">
+                <img src="img/gustavo.jfif" class="pessoa_imagem" />
+              </div>
+            </a>
+              <span class="pessoa__nome">Gustavo Angelozi</span>
+              <span class="pessoa__funcao">Ciência da Computação</span>
+              
+            </div>
+  
+            <div class="pessoa">
+              <a href="https://www.linkedin.com/in/gabriela-botura-marchiori-91b20418b/" target="_blank">
+              <div class="pessoa_img_conteiner">
+                <img src="img/gabi.jpg" class="pessoa_imagem" />
+              </div>
+            </a>
+              <span class="pessoa__nome">Gabriela Marchiori</span>
+              <span class="pessoa__funcao">Sistemas de Informação</span>
+            </div>
+  
+            <div class="pessoa">
+              <a href="https://www.linkedin.com/in/mlugard/"target="_blank">
+              <div class="pessoa_img_conteiner">
+                <img src="img/marcelo.jpg" class="pessoa_imagem" />
+              </div>
+            </a>
+              <span class="pessoa__nome">Marcelo Cabral</span>
+              <span class="pessoa__funcao">Ciência da Computação</span>
+            </div>
+  
+            <div class="pessoa">
+              <a href="https://www.linkedin.com/in/wallexdefranca/"target="_blank">
+              <div class="pessoa_img_conteiner">
+                <img src="img/leonardo1.jpeg" class="pessoa_imagem" />
+              </div>
+              </a>
+              <span class="pessoa__nome">Leonardo Nascimento</span>
+              <span class="pessoa__funcao">Ciência da Computação</span>
+            </div>
+
+            <div class="pessoa">
+              <a href="https://www.linkedin.com/in/wallexdefranca/"target="_blank">
+              <div class="pessoa_img_conteiner">
+                <img src="img/victor.jfif" class="pessoa_imagem" />
+              </div>
+              </a>
+              <span class="pessoa__nome">Victor<br> Araujo</span>
+              <span class="pessoa__funcao">Ciência da Computação</span>
+            </div>
+
+            
+            <div class="pessoa">
+              <a href="https://www.linkedin.com/in/wallexdefranca/"target="_blank">
+              <div class="pessoa_img_conteiner">
+                <img src="img/vitor.jfif" class="pessoa_imagem" />
+              </div>
+              </a>
+              <span class="pessoa__nome">Vitor<br> Reis</span>
+              <span class="pessoa__funcao">Sistemas de informação</span>
+            </div>
+
+            
+            <div class="pessoa">
+              <a href="https://www.linkedin.com/in/wallexdefranca/"target="_blank">
+              <div class="pessoa_img_conteiner">
+                <img src="img/leonardo2.jfif" class="pessoa_imagem" />
+              </div>
+              </a>
+              <span class="pessoa__nome">Leonardo Santos</span>
+              <span class="pessoa__funcao">Sistemas de informação</span>
+            </div>
+  
+            
+            <div class="pessoa">
+              <a href="https://www.linkedin.com/in/wallexdefranca/"target="_blank">
+              <div class="pessoa_img_conteiner">
+                <img src="img/lucca.jfif" class="pessoa_imagem" />
+              </div>
+              </a>
+              <span class="pessoa__nome">Lucca<br> Luizon</span>
+              <span class="pessoa__funcao">Ciência da Computação</span>
+            </div>  
+  
+  
+          </div>
+          <!-- quem somos -->
+          <footer class="rodape">Contato: exemplo@email.com.br</footer>
+        </section>
+      </section>
+    </main>
+
+    <script src="./js/passarCard.js"></script>
+    <script src="./js/button.js"></script>
+  </body>
+</html>
